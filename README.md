@@ -10,3 +10,6 @@ FSAM to EXCAM and vice versa. See function docstring for more information.
 
 # Unit test
 The function ``test_delta_fsam.py`` performs a unit test checking that the transformation returns to its original point when the EXCAM->FSAM->EXCAM transformation is considered. Note: The case ```fsam_to_excam_modelbased.fits`` has extensively been tested in ``corgidrp``. Thus, this function only needs a simpler test.
+
+# Example of use
+The unit test function ``test_delta_fsam.py`` shows how to import ``delta_fsam.py`` and how to use it.
